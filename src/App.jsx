@@ -214,7 +214,7 @@ const App = () => {
                   <textarea
                     value={prompt}
                     onChange={(e) => setPrompt(e.target.value)}
-                    placeholder="A mystical phoenix rising from cosmic flames, digital art masterpiece, hyper-realistic, vibrant colors..."
+                    placeholder="A mystical phoenix rising from cosmic flames."
                     className="w-full p-6 sm:p-8 bg-white/10 border-2 border-white/20 rounded-2xl text-white text-lg placeholder-gray-400 focus:outline-none focus:ring-4 focus:ring-purple-500/50 focus:border-purple-500 resize-none transition-all duration-300 hover:bg-white/15 group-hover:shadow-xl group-hover:shadow-purple-500/10"
                     rows="4"
                   />
@@ -294,13 +294,13 @@ const App = () => {
 
           {/* Footer */}
           <div className="prata-regular text-center mt-8 sm:mt-16 text-gray-400 animate-fade-in animation-delay-3000">
-            <p className="text-lg flex items-center justify-center gap-3">
+            <p className="text-sm underline flex items-center justify-center gap-3">
               <span className="w-2 h-2 bg-purple-400 rounded-full animate-pulse" />
-              First magic spell takes 20-30 seconds to cast
+              First magic spell takes 10-20 seconds to cast
               <span className="w-2 h-2 bg-pink-400 rounded-full animate-pulse animation-delay-500" />
             </p>
           </div>
-          <div className=" caveat text-center mt-24 sm:mt-16 text-gray-400 animate-fade-in animation-delay-3000">
+          <div className=" caveat text-center mt-20 sm:mt-16 text-gray-400 animate-fade-in animation-delay-3000">
             <p className="text-lg flex items-center justify-center gap-3">
               <span className="w-2 h-2 bg-red-600 rounded-full animate-pulse" />
               Developed & Designed by Sooraj.
